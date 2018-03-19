@@ -12,5 +12,13 @@ if ( $tuple = $curseur -> fetch() )
     echo "<b>".$tuple["camp_experimenter"]."</b></div>";
 }
 
-include("footer.php");
+echo "<ol>Souhaitez vous :";
+echo "<li>Modifiez le titre de cette campagne ?</li>";
+echo "<li>Modifiez la description de cette campagne ?</li>";
+echo "<li>Modifiez le nom du ou des expérimentateurs de cette campagne ?</li>";
+echo "<li><a href='add_survey.php?id=$id'>Ajouter un questionnaire</a></li>";
+echo "<li>Supprimer un questionnaire ?</li>";
+echo "</ol>";
+
+include("footer.php"); 
 ?>

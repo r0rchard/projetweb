@@ -83,6 +83,7 @@
                                             echo "<li><a href='login.php'>Se connecter</a></li>";
                                         }
                                     ?>
+                                    <?php include'fonctions.php'?>
                                 </ul>
                             </li>
                         </ul>

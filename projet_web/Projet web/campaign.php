@@ -5,11 +5,17 @@ $curseur = $BDD -> query( "SELECT * FROM campaign Order By camp_id" );
 
 while ( $tuple = $curseur -> fetch() )
 {    
-    $id=$tuple["camp_id"];
+    $id=$tuple["camp_id"];    
+    $curseur2 = $BDD -> query( "SELECT * FROM survey WHERE sur_camp_id = $id Order By sur_title" );    
     echo "<div class='well onmouse'>";
-    echo "<h2><a href='start_campaign.php?id=$id'>".$tuple["camp_title"]."</a></h2>";
+    echo "<h2>".$tuple["camp_title"]."</h2>";
     echo "<p>".$tuple["camp_description"]."</p>";
-    echo "<b>".$tuple["camp_experimenter"]."</b></div>";
+    while ( $tuple2 = $curseur2 -> fetch() )
+    {        
+        echo "<span class='survey'>".$tuple2["sur_title"]."</span><br />";
+    }
+    echo "<b>Expérimentateur(s) : ".$tuple["camp_experimenter"]."</b><br />";
+    echo "<a href='start_campaign.php?id=$id'>Commencer</a></div>";
 }
 
 include("footer.php");
