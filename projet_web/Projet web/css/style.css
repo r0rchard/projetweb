@@ -2,6 +2,7 @@ body {
     background-image: url(https://www.aurorayazilim.com/wp-content/uploads/2015/10/web-tasarimi-background.jpg);
     background-attachment: fixed;
     padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer {
@@ -48,4 +49,15 @@ body {
 {          
     font-size: 110%;
     color: red;
+}
+
+.none
+{
+    font-style: normal;
+    font-weight: normal;
+}
+
+.survey
+{
+    border: 2px blue inset;
 }
