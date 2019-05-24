@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    border-top: 1px solid rgb(145, 201, 218);
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.onmouse:hover {
+    background-color: rgb(255,255,255);
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.error
+{
+    color: red;
+    font-weight: bold;
+}
+
+.well
+{
+    position: relative;
+}
+
+.button
+{
+    position: absolute;
+    right: 2.5%;
+    bottom: 5px;
+}
+
+.modify
+{  
+    font-size: 110%;
+    color: grey;    
+}
+
+.delete
+{          
+    font-size: 110%;
+    color: red;
+}
+
+.none
+{
+    font-style: normal;
+    font-weight: normal;
+}
+
+.space
+{
+    margin-left: 15px;
+}
