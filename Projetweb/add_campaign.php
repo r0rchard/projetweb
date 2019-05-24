@@ -5,9 +5,9 @@
     <form class="form-horizontal" role="form" enctype="multipart/form-data" action="campaign_added.php" method="post">
         <input type="hidden" name="id" value="">
         <div class="form-group">
-            <label class="col-sm-4 control-label">Titre de la campagne</label>
+            <label class="col-sm-4 control-label">Titre</label>
                 <div class="col-sm-6">
-                  <input type="text" name="title" value="" class="form-control" placeholder="Entrez le titre de la campagne de tests" required>
+                  <input type="text" name="title" value="" class="form-control" placeholder="Entrez le titre" required>
                 </div>
         </div>
         <div class="form-group">
@@ -17,9 +17,9 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-4 control-label">Expérimentateur(s)</label>
+            <label class="col-sm-4 control-label">Expérimentateur</label>
             <div class="col-sm-6">
-                <input type="text" name="experimenter" value="" class="form-control" placeholder="Entrez le nom du ou des expérimentateurs" required>
+                <input type="text" name="experimenter" value="" class="form-control" placeholder="Entrez le nom de l'expérimentateur" required>
             </div>
         </div>
         <div class="form-group">

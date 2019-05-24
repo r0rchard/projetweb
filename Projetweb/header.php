@@ -57,7 +57,7 @@
                         </a>
                         <a href='recap.php'>
                             <span class='navbar-text'>
-                                <span class='glyphicon glyphicon-tasks'></span> Récapitulatif de vos réponses
+                                <span class='	glyphicon glyphicon-tasks'></span> Récapitulatif de vos réponses
                             </span>
                         </a>
                     <?php } ?>
@@ -83,7 +83,7 @@
                                             echo "<li><a href='login.php'>Se connecter</a></li>";
                                         }
                                     ?>
-                                    <?php include ("fonctions.php") ?>
+                                    <?php include'fonctions.php'?>
                                 </ul>
                             </li>
                         </ul>

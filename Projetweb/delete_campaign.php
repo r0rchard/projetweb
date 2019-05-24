@@ -1,5 +1,4 @@
-<?php 
-include("header.php"); ?>
+<?php include("header.php"); ?>
 
 <div class="well">
     <h3 class="text-center">Votre campagne a bien été supprimée.</h3>
